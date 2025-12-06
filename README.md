@@ -1,3 +1,20 @@
+# MULTI-LEVEL SECURITY ACCESS SYSTEM
+
+## 📌 AIM
+
+The aim of this project is to ensure **high-level security** by implementing a **three-level authentication system** using:
+
+1. **RFID Verification**  
+2. **Password Verification (Keypad)**  
+3. **Fingerprint Verification (R305 Module)**  
+
+Only users who successfully pass all three stages can access the protected device or system.
+
+---
+
+## 📦 BLOCK DIAGRAM
+
+<img width="1028" height="716" alt="image" src="https://github.com/user-attachments/assets/cdb1bb2a-a1a0-4b14-b382-4f3698a6d0a9" />
 
 ---
 
@@ -58,4 +75,57 @@ Connect RFID → USB UART → PC Terminal.
 
 **Example Output**  
 For card number 12345678:
+
+---
+
+
+---
+
+### ✋ 4. PASSWORD TEST (Keypad)
+- Enter password via keypad.  
+- Compare with stored EEPROM value.  
+- LCD Output Example:
+
+Enter Password:
+Access Granted
+
+## ✋ 5. FINGERPRINT TEST (R305 MODULE)
+Steps:
+1. Capture finger image  
+2. Convert to template  
+3. Search template in module memory  
+
+**Output**
+Place Finger
+Scanning...
+Securely Verified
+---
+
+# ⭐ PROJECT IMPROVEMENTS
+
+### ✔ Advantages
+- High security with **3-level authentication**  
+- Low-cost components  
+- Accurate fingerprint matching  
+- EEPROM stores permanent user credentials  
+
+### ❌ Drawbacks
+- If any single sensor fails → system access fails  
+- Fingerprint module needs clean finger surface  
+- RFID cards can be lost or stolen  
+- More hardware increases project size  
+
+---
+
+
+# 🏁 CONCLUSION
+This project successfully demonstrates a **three-level secure access system** using RFID, Password, and Fingerprint authentication.  
+It ensures **robust security** suitable for lockers, labs, offices, and industrial applications.
+
+# 👤 AUTHOR  
+**Surya Prakash Vadaparthi**  
+B.Tech – Embedded Systems Developer  
+
+---
+
 
