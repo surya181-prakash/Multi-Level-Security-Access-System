@@ -100,8 +100,16 @@ Place Finger
 Scanning...
 Securely Verified
 ---
+## 🖼️ PROJECT IMAGES
+### KEIL µVision Project Screenshot
+
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/83f8655f-89d3-44df-b2ef-e9c2016ae3c4" />
+
+### Hardware Setup
 
 # ⭐ PROJECT IMPROVEMENTS
+![WhatsApp Image 2025-12-06 at 21 16 41_98df45b4](https://github.com/user-attachments/assets/31a0d5a1-aa0e-4b53-b624-99d471e73783)
+
 
 ### ✔ Advantages
 - High security with **3-level authentication**  
